@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Food Website</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+	<div class="container">
+		<div id="sidebar">
+  <div class="toggle-btn" onclick="toggleSidebar(this)">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>  
+  <div class="list">
+    <div class="item">Home</div>
+    <div class="item">About us</div>
+    <div class="item">Contact us</div>
+  </div>
+</div>
+		<div class="row">
+			<div class="col">
+				<h1>Healthy life</h1>
+				<P>On this website you can learn a lot about healthy eating, exercise, healthy foods, healthy food recipes</P>
+				<button type="button"><a href="food.blog.html">Explore</a></button>
+			</div>
+			<div class="col">
+				<a href="workout.blog.html">
+				<div class="card1" >
+			   <h5>Workout</h5>
+			   <p>10 Best Exercises for Everyone</p>
+			
+			   </div>
+                </a>
+                <a href="food.blog.html">
+			<div class="card2">
+			   <h5>Food </h5>
+			   <p>10 Foods That Help You Build Lean Muscle</p>
+			   </div>
+               </a>
+                <a href="PANCAKES.HTML">
+			<div class="card3">
+			   <h5>Food </h5>
+			   <p>Easy and healthy banana oat pancakes</p>
+			   </div>
+                  </a>
+
+               
+         </div>
+	
+
+	</div>
+
+<script type="text/javascript">
+	function toggleSidebar(ref){
+  document.getElementById("sidebar").classList.toggle('active');
+}
+</script>
+
+	
+
+
+
+
+
+
+
+</body>
+</html>
